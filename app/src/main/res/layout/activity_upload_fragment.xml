@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UploadFragment"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_image"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:src="@drawable/ic_baseline_image_24"
+        android:backgroundTint="@color/blackLight"
+        android:scaleType="center"
+        android:adjustViewBounds="false"
+        android:background="@drawable/border"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        app:cardCornerRadius="50dp"
+        android:id="@+id/uploadButton"
+        android:layout_marginBottom="20sp"
+        />
+
+    <EditText
+        android:id="@+id/title_upload_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:textColor="#FDFEFE"
+        android:textColorHint="#C0C0C0"
+        android:layout_marginBottom="20sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/description"
+        android:textAlignment="center"
+        android:textColor="#FDFEFE"
+        android:textColorHint="#C0C0C0"
+        android:id="@+id/description_upload_image"
+        android:layout_marginBottom="20sp"
+        />
+    <Button
+        android:text="@string/add_a_new_post"
+        android:background="@drawable/roundeduploadbutton"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uploadImgur"
+        android:layout_marginBottom="60sp"
+        />
+    </LinearLayout>
+</LinearLayout>

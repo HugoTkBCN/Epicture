@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Epicture</string>
+    <string name="authors">Hugo, Jonathan and Hector</string>
+    <string name="search">Search</string>
+    <string name="loginTitle">The magic of the Internet</string>
+    <string name="loginSubtitle">The easiest way to discover and enjoy the magic of the Internet in the reach of your hand.</string>
+    <string name="upload_image">Upload image</string>
+    <string name="gallery">Gallery</string>
+    <string name="favorites">Favorites</string>
+    <string name="upload">Upload</string>
+    <string name="account">Account</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="add_a_new_post">Add a new post</string>
+</resources>
